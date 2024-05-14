@@ -294,6 +294,7 @@
   
   .pet-marketplace .button-2 {
 	all: unset;
+	
 	box-sizing: border-box;
 	margin-top: -2.68px;
 	color: var(--headline);
