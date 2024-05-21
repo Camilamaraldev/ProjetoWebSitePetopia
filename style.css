@@ -219,7 +219,7 @@
 	flex: 0 0 auto;
   }
   
-  .pet-marketplace .product-card-2 {
+  .pet-marketplace .product-card-2{
 	top: 171px;
 	left: 610px;
 	display: inline-flex;
@@ -279,7 +279,7 @@
 	background-color: #131415;
   }
   
-  .pet-marketplace .button-wrapper {
+  .pet-marketplace .button-wrapp {
 	display: inline-flex;
 	gap: 17.85px;
 	padding: 14.28px 42.84px;
@@ -292,7 +292,7 @@
 	justify-content: center;
   }
   
-  .pet-marketplace .button-2 {
+  .pet-marketplace .bt-2 {
 	all: unset;
 	
 	box-sizing: border-box;
@@ -305,4 +305,67 @@
 	font-family: "Poppins", Helvetica;
 	font-weight: 500;
 	line-height: normal;
+  }
+
+  .pet-marketplace .brands-logo {
+	display: flex;
+	width: 1734px;
+	align-items: center;
+	justify-content: center;
+	gap: 37.03px;
+	padding: 20.13px 32px;
+	position: absolute;
+	top: 1076px;
+	left: 0;
+	background-color: #d9d9d9;
+  }
+  
+  .pet-marketplace .flutterwave-png {
+	position: relative;
+	width: 474.17px;
+	height: 68.11px;
+  }
+  
+  .pet-marketplace .petsmart-png {
+	position: relative;
+	width: 376.24px;
+	height: 72.88px;
+  }
+  
+  .pet-marketplace .paypal-png {
+	position: relative;
+	width: 333.76px;
+	height: 68.41px;
+  }
+  
+  .pet-marketplace .logo-unipe-desktop {
+	position: relative;
+	width: 267px;
+	height: 107px;
+	object-fit: cover;
+  }
+  
+  .pet-marketplace .overlap-group {
+	position: absolute;
+	width: 1735px;
+	height: 3345px;
+	top: 2910px;
+	left: 0;
+  }
+  
+  .pet-marketplace .group {
+	position: absolute;
+	width: 1732px;
+	height: 661px;
+	top: 2146px;
+	left: 0;
+  }
+  
+  .pet-marketplace .overlap-group-2 {
+	position: relative;
+	width: 1728px;
+	height: 661px;
+	background-image: url(https://c.animaapp.com/f11aBe7U/img/rectangle-4.png);
+	background-size: cover;
+	background-position: 50% 50%;
   }
