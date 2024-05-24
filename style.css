@@ -843,3 +843,31 @@
 	font-weight: 500;
 	line-height: normal;
   }
+
+  .pet-marketplace .buttons-5 {
+	all: unset;
+	box-sizing: border-box;
+	display: inline-flex;
+	gap: 10px;
+	padding: 8px 24px;
+	position: relative;
+	flex: 0 0 auto;
+	border: 1.5px solid;
+	border-color: var(--foundation-orangenormal);
+	align-items: center;
+	justify-content: center;
+  }
+  
+  .pet-marketplace .button-5 {
+	all: unset;
+	box-sizing: border-box;
+	margin-top: -1.5px;
+	color: var(--button);
+	font-size: 16px;
+	letter-spacing: -0.32px;
+	position: relative;
+	width: fit-content;
+	font-family: "Poppins", Helvetica;
+	font-weight: 500;
+	line-height: normal;
+  }
