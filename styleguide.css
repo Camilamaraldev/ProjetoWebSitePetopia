@@ -1,0 +1,24 @@
+:root { 
+  --foundation-orangelight: rgba(254, 244, 230, 1);
+  --foundation-orangelight-hover: rgba(253, 239, 217, 1);
+  --foundation-orangelight-active: rgba(251, 221, 176, 1);
+  --foundation-orangenormal: rgba(242, 145, 0, 1);
+  --foundation-orangenormal-hover: rgba(218, 131, 0, 1);
+  --foundation-orangenormal-active: rgba(194, 116, 0, 1);
+  --foundation-orangedark: rgba(182, 109, 0, 1);
+  --foundation-orangedark-hover: rgba(145, 87, 0, 1);
+  --foundation-orangedark-active: rgba(109, 65, 0, 1);
+  --foundation-orangedarker: rgba(85, 51, 0, 1);
+  --button: rgba(209, 209, 209, 1);
+  --headline: rgba(255, 255, 254, 1);
+  --paragraph: rgba(148, 161, 178, 1);
+  --alt-primary-color: rgba(11, 7, 17, 1);
+  --alt-bg-color: rgba(36, 38, 41, 1);
+  --button-text: rgba(127, 90, 240, 1);
+  --small-text-font-family: "Open Sans", Helvetica;
+  --small-text-font-weight: 600;
+  --small-text-font-size: 24px;
+  --small-text-letter-spacing: -1.8px;
+  --small-text-line-height: normal;
+  --small-text-font-style: normal;
+}
