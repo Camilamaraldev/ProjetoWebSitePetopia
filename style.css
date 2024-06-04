@@ -1,0 +1,878 @@
+
+.pet-marketplace {
+	background-color: #010204;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	width: 100%;
+  }
+  
+  .pet-marketplace .div {
+	background-color: #010204;
+	overflow: hidden;
+	width: 1728px;
+	height: 6344px;
+	position: relative;
+  }
+  
+  .pet-marketplace .overlap {
+	position: absolute;
+	width: 1736px;
+	height: 2873px;
+	top: 37px;
+	left: -1px;
+  }
+  
+  .pet-marketplace .vector {
+	position: absolute;
+	width: 760px;
+	height: 977px;
+	top: 295px;
+	left: 969px;
+  } 
+  
+  .pet-marketplace .img {
+	width: 744px;
+	top: 42px;
+	left: 1px;
+	position: absolute;
+	height: 1133px;
+  }
+  
+  .pet-marketplace .vector-2 {
+	width: 1164px;
+	top: 0;
+	left: 321px;
+	position: absolute;
+	height: 1133px;
+  }
+  
+  .pet-marketplace .rectangle {
+	position: absolute;
+	width: 900px;
+	height: 1062px;
+	top: 40px;
+	left: 829px;
+	object-fit: cover;
+  }
+  
+  .pet-marketplace .frame {
+	display: inline-flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 14px;
+	position: absolute;
+	top: 356px;
+	left: 146px;
+  }
+  
+  .pet-marketplace .vamos-ajudar-a {
+	position: relative;
+	width: 1092px;
+	height: 210px;
+	margin-top: -1px;
+	font-family: "Poppins", Helvetica;
+	font-weight: 600;
+	color: #d9d9d9;
+	font-size: 70px;
+	letter-spacing: -1.4px;
+	line-height: normal;
+  }
+  
+  .pet-marketplace .compre-os-melhores {
+	position: relative;
+	width: fit-content;
+	font-family: "Open Sans", Helvetica;
+	font-weight: 600;
+	color: var(--button);
+	font-size: 29px;
+	letter-spacing: -2.17px;
+	line-height: normal;
+  }
+  
+  .pet-marketplace .buttons {
+	display: flex;
+	width: 205px;
+	height: 61px;
+	align-items: center;
+	justify-content: center;
+	gap: 10px;
+	padding: 8px 24px;
+	position: absolute;
+	top: 857px;
+	left: 146px;
+	background-color: var(--foundation-orangenormal);
+  }
+  
+  .pet-marketplace .button {
+	all: unset;
+	box-sizing: border-box;
+	position: relative;
+	width: fit-content;
+	font-family: "Poppins", Helvetica;
+	font-weight: 600;
+	color: var(--button);
+	font-size: 20px;
+	letter-spacing: -0.4px;
+	line-height: normal;
+  }
+  
+  .pet-marketplace .search-hero-section {
+	display: flex;
+	width: 757px;
+	align-items: center;
+	gap: 10px;
+	padding: 24px 10px 24px 24px;
+	position: absolute;
+	top: 738px;
+	left: 146px;
+	border: 2px solid;
+	border-color: var(--foundation-orangenormal-active);
+  }
+  
+  .pet-marketplace .text-wrapper {
+	position: relative;
+	width: fit-content;
+	margin-top: -2px;
+	font-family: "Poppins", Helvetica;
+	font-weight: 400;
+	color: #ffffff;
+	font-size: 28px;
+	letter-spacing: -2.1px;
+	line-height: normal;
+  }
+  
+  .pet-marketplace .featured-products {
+	position: absolute;
+	width: 1735px;
+	height: 1682px;
+	top: 1191px;
+	left: 1px;
+	background-color: #1b1c1d;
+  }
+  
+  .pet-marketplace .text-wrapper-2 {
+	position: absolute;
+	top: 54px;
+	left: 645px;
+	font-family: "Poppins", Helvetica;
+	font-weight: 500;
+	color: var(--headline);
+	font-size: 50px;
+	letter-spacing: -1px;
+	line-height: normal;
+  }
+  
+  .pet-marketplace .product-card {
+	padding: 46.87px;
+	position: absolute;
+	top: 171px;
+	left: 61px;
+	background-color: #131415;
+	display: inline-flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
+  }
+  
+  .pet-marketplace .rectangle-2 {
+	position: relative;
+	width: 417.41px;
+	height: 397.63px;
+  }
+  
+  .pet-marketplace .product-description {
+	gap: 5.86px;
+	position: relative;
+	flex: 0 0 auto;
+	background-color: #141415;
+	display: inline-flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
+  }
+  
+  .pet-marketplace .text-wrapper-3 {
+	position: relative;
+	width: fit-content;
+	margin-top: -0.73px;
+	font-family: "Poppins", Helvetica;
+	font-weight: 500;
+	color: var(--paragraph);
+	font-size: 36.6px;
+	letter-spacing: -0.73px;
+	line-height: normal;
+  }
+  
+  .pet-marketplace .text-wrapper-4 {
+	position: relative;
+	width: fit-content;
+	font-family: "Poppins", Helvetica;
+	font-weight: 500;
+	color: var(--foundation-orangenormal);
+	font-size: 25.6px;
+	letter-spacing: -0.51px;
+	line-height: normal;
+  }
+  
+  .pet-marketplace .component {
+	position: relative;
+	flex: 0 0 auto;
+  }
+  
+  .pet-marketplace .product-card-2 {
+	top: 171px;
+	left: 610px;
+	display: inline-flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
+	padding: 46.87px;
+	position: absolute;
+	background-color: #131415;
+  }
+  
+  .pet-marketplace .product-card-3 {
+	top: 171px;
+	left: 1159px;
+	display: inline-flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
+	padding: 46.87px;
+	position: absolute;
+	background-color: #131415;
+  }
+  
+  .pet-marketplace .product-card-4 {
+	top: 850px;
+	left: 61px;
+	display: inline-flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
+	padding: 46.87px;
+	position: absolute;
+	background-color: #131415;
+  }
+  
+  .pet-marketplace .product-card-5 {
+	top: 850px;
+	left: 610px;
+	display: inline-flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
+	padding: 46.87px;
+	position: absolute;
+	background-color: #131415;
+  }
+  
+  .pet-marketplace .product-card-6 {
+	top: 850px;
+	left: 1159px;
+	display: inline-flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
+	padding: 46.87px;
+	position: absolute;
+	background-color: #131415;
+  }
+  
+  .pet-marketplace .button-wrapper {
+	display: inline-flex;
+	gap: 17.85px;
+	padding: 14.28px 42.84px;
+	position: absolute;
+	top: 1536px;
+	left: 758px;
+	border: 2.68px solid;
+	border-color: var(--foundation-orangenormal);
+	align-items: center;
+	justify-content: center;
+  }
+  
+  .pet-marketplace .button-2 {
+	all: unset;
+	box-sizing: border-box;
+	margin-top: -2.68px;
+	color: var(--headline);
+	font-size: 28.6px;
+	letter-spacing: -0.57px;
+	position: relative;
+	width: fit-content;
+	font-family: "Poppins", Helvetica;
+	font-weight: 500;
+	line-height: normal;
+  }
+  
+  .pet-marketplace .brands-logo {
+	display: flex;
+	width: 1734px;
+	align-items: center;
+	justify-content: center;
+	gap: 37.03px;
+	padding: 20.13px 32px;
+	position: absolute;
+	top: 1076px;
+	left: 0;
+	background-color: #d9d9d9;
+  }
+  
+  .pet-marketplace .flutterwave-png {
+	position: relative;
+	width: 474.17px;
+	height: 68.11px;
+  }
+  
+  .pet-marketplace .petsmart-png {
+	position: relative;
+	width: 376.24px;
+	height: 72.88px;
+  }
+  
+  .pet-marketplace .paypal-png {
+	position: relative;
+	width: 333.76px;
+	height: 68.41px;
+  }
+  
+  .pet-marketplace .logo-unipe-desktop {
+	position: relative;
+	width: 267px;
+	height: 107px;
+	object-fit: cover;
+  }
+  
+  .pet-marketplace .overlap-group {
+	position: absolute;
+	width: 1735px;
+	height: 3345px;
+	top: 2910px;
+	left: 0;
+  }
+  
+  .pet-marketplace .group {
+	position: absolute;
+	width: 1732px;
+	height: 661px;
+	top: 2146px;
+	left: 0;
+  }
+  
+  .pet-marketplace .overlap-group-2 {
+	position: relative;
+	width: 1728px;
+	height: 661px;
+	background-image: url(https://c.animaapp.com/f11aBe7U/img/rectangle-4.png);
+	background-size: cover;
+	background-position: 50% 50%;
+  }
+  
+  .pet-marketplace .get-updated-with {
+	position: absolute;
+	top: 235px;
+	left: 350px;
+	font-family: "Open Sans", Helvetica;
+	font-weight: 600;
+	color: var(--button);
+	font-size: 32px;
+	text-align: center;
+	letter-spacing: -2.4px;
+	line-height: normal;
+  }
+  
+  .pet-marketplace .text-wrapper-5 {
+	position: absolute;
+	top: 123px;
+	left: 391px;
+	font-family: "Poppins", Helvetica;
+	font-weight: 600;
+	color: var(--headline);
+	font-size: 74.9px;
+	letter-spacing: -1.5px;
+	line-height: normal;
+  }
+  
+  .pet-marketplace .div-wrapper {
+	all: unset;
+	box-sizing: border-box;
+	display: flex;
+	width: 205px;
+	height: 61px;
+	gap: 10px;
+	padding: 8px 24px;
+	position: absolute;
+	top: 468px;
+	left: 792px;
+	background-color: var(--foundation-orangenormal);
+	align-items: center;
+	justify-content: center;
+  }
+  
+  .pet-marketplace .search-hero-section-2 {
+	display: flex;
+	width: 757px;
+	align-items: center;
+	justify-content: center;
+	gap: 10px;
+	padding: 24px 10px 24px 24px;
+	position: absolute;
+	top: 349px;
+	left: 490px;
+	border: 2px solid;
+	border-color: var(--foundation-orangenormal);
+  }
+  
+  .pet-marketplace .text-wrapper-6 {
+	text-align: center;
+	position: relative;
+	width: fit-content;
+	margin-top: -2px;
+	font-family: "Poppins", Helvetica;
+	font-weight: 600;
+	color: #ffffff4f;
+	font-size: 28px;
+	letter-spacing: -2.1px;
+	line-height: normal;
+  }
+  
+  .pet-marketplace .latest-products {
+	position: absolute;
+	width: 1735px;
+	height: 1705px;
+	top: 442px;
+	left: 0;
+	background-color: #1b1c1d;
+  }
+  
+  .pet-marketplace .text-wrapper-7 {
+	position: absolute;
+	top: 54px;
+	left: 681px;
+	font-family: "Poppins", Helvetica;
+	font-weight: 500;
+	color: var(--headline);
+	font-size: 50px;
+	letter-spacing: -1px;
+	line-height: normal;
+  }
+  
+  .pet-marketplace .buttons-2 {
+	display: inline-flex;
+	gap: 17.85px;
+	padding: 14.28px 42.84px;
+	position: absolute;
+	top: 1543px;
+	left: 758px;
+	border: 2.68px solid;
+	border-color: var(--foundation-orangenormal);
+	align-items: center;
+	justify-content: center;
+  }
+  
+  .pet-marketplace .ellipse {
+	position: absolute;
+	width: 263px;
+	height: 263px;
+	top: 170px;
+	left: 430px;
+	background-color: #d9d9d991;
+	border-radius: 131.5px;
+	box-shadow: 0px 4px 4px #00000040;
+  }
+  
+  .pet-marketplace .frame-2 {
+	position: absolute;
+	width: 1735px;
+	height: 444px;
+	top: 0;
+	left: 0;
+	background-color: #0b0611b8;
+	backdrop-filter: blur(120px) brightness(100%);
+	-webkit-backdrop-filter: blur(120px) brightness(100%);
+  }
+  
+  .pet-marketplace .discount-pana {
+	position: absolute;
+	width: 578px;
+	height: 355px;
+	top: 89px;
+	left: 0;
+  }
+  
+  .pet-marketplace .overlap-2 {
+	position: absolute;
+	width: 834px;
+	height: 257px;
+	top: 36px;
+	left: 615px;
+  }
+  
+  .pet-marketplace .text-wrapper-8 {
+	position: absolute;
+	top: 0;
+	left: 2px;
+	font-family: "Poppins", Helvetica;
+	font-weight: 500;
+	color: #ffffff;
+	font-size: 36px;
+	letter-spacing: 8.82px;
+	line-height: normal;
+  }
+  
+  .pet-marketplace .text-wrapper-9 {
+	position: absolute;
+	top: 31px;
+	left: 0;
+	font-family: "Poppins", Helvetica;
+	font-weight: 700;
+	color: #d9d9d9;
+	font-size: 132px;
+	letter-spacing: -2.99px;
+	line-height: normal;
+  }
+  
+  .pet-marketplace .p {
+	position: absolute;
+	top: 215px;
+	left: 0;
+	font-family: "Poppins", Helvetica;
+	font-weight: 500;
+	color: #ffffff;
+	font-size: 25px;
+	text-align: center;
+	letter-spacing: 0;
+	line-height: normal;
+  }
+  
+  .pet-marketplace .buttons-3 {
+	display: flex;
+	width: 286px;
+	height: 62px;
+	gap: 10px;
+	padding: 8px 24px;
+	position: absolute;
+	top: 329px;
+	left: 882px;
+	background-color: var(--foundation-orangenormal);
+	align-items: center;
+	justify-content: center;
+  }
+  
+  .pet-marketplace .button-3 {
+	all: unset;
+	box-sizing: border-box;
+	color: var(--button);
+	font-size: 20px;
+	letter-spacing: -0.4px;
+	position: relative;
+	width: fit-content;
+	font-family: "Poppins", Helvetica;
+	font-weight: 500;
+	line-height: normal;
+  }
+  
+  .pet-marketplace .footer-section {
+	position: absolute;
+	width: 1728px;
+	height: 545px;
+	top: 2800px;
+	left: 0;
+	background-color: var(--alt-bg-color);
+  }
+  
+  .pet-marketplace .footer-about {
+	display: inline-flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
+	gap: 14px;
+	position: absolute;
+	top: 32px;
+	left: 61px;
+  }
+  
+  .pet-marketplace .logo {
+	display: inline-flex;
+	align-items: center;
+	gap: 13px;
+	padding: 16px;
+	position: relative;
+	flex: 0 0 auto;
+	background-color: var(--alt-primary-color);
+  }
+  
+  .pet-marketplace .frame-3 {
+	display: inline-flex;
+	align-items: center;
+	gap: 298px;
+	position: relative;
+	flex: 0 0 auto;
+  }
+  
+  .pet-marketplace .logo-2 {
+	display: inline-flex;
+	align-items: center;
+	gap: 13px;
+	position: relative;
+	flex: 0 0 auto;
+  }
+  
+  .pet-marketplace .ri-bear-smile-fill {
+	position: relative;
+	width: 61px;
+	height: 56px;
+  }
+  
+  .pet-marketplace .PETOPIA {
+	position: relative;
+	width: fit-content;
+	margin-top: -1px;
+	font-family: "Poppins", Helvetica;
+	font-weight: 700;
+	color: transparent;
+	font-size: 40.8px;
+	letter-spacing: 0;
+	line-height: normal;
+  }
+  
+  .pet-marketplace .span {
+	color: #fffffe;
+  }
+  
+  .pet-marketplace .text-wrapper-10 {
+	color: #f29100;
+  }
+  
+  .pet-marketplace .frame-4 {
+	display: inline-flex;
+	align-items: center;
+	gap: 24px;
+	position: absolute;
+	top: 4px;
+	left: 544px;
+  }
+  
+  .pet-marketplace .frame-5 {
+	display: inline-flex;
+	align-items: flex-start;
+	gap: 10px;
+	padding: 10px;
+	position: relative;
+	flex: 0 0 auto;
+  }
+  
+  .pet-marketplace .text-wrapper-11 {
+	position: relative;
+	width: fit-content;
+	margin-top: -1px;
+	font-family: "Open Sans", Helvetica;
+	font-weight: 700;
+	color: var(--foundation-orangenormal);
+	font-size: 24px;
+	letter-spacing: -1.8px;
+	line-height: normal;
+  }
+  
+  .pet-marketplace .text-wrapper-12 {
+	position: relative;
+	width: fit-content;
+	margin-top: -1px;
+	font-family: var(--small-text-font-family);
+	font-weight: var(--small-text-font-weight);
+	color: var(--button);
+	font-size: var(--small-text-font-size);
+	letter-spacing: var(--small-text-letter-spacing);
+	line-height: var(--small-text-line-height);
+	font-style: var(--small-text-font-style);
+  }
+  
+  .pet-marketplace .text-wrapper-13 {
+	position: relative;
+	width: fit-content;
+	font-family: "Poppins", Helvetica;
+	font-weight: 500;
+	color: #ffffff;
+	font-size: 50px;
+	letter-spacing: -1px;
+	line-height: normal;
+  }
+  
+  .pet-marketplace .text-wrapper-14 {
+	position: relative;
+	width: 476px;
+	font-family: "Poppins", Helvetica;
+	font-weight: 500;
+	color: #ffffff;
+	font-size: 24px;
+	text-align: justify;
+	letter-spacing: -0.48px;
+	line-height: normal;
+  }
+  
+  .pet-marketplace .footer-about-2 {
+	top: 146px;
+	left: 1194px;
+	display: inline-flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
+	gap: 14px;
+	position: absolute;
+  }
+  
+  .pet-marketplace .text-wrapper-15 {
+	position: relative;
+	width: fit-content;
+	margin-top: -1px;
+	font-family: "Poppins", Helvetica;
+	font-weight: 500;
+	color: #ffffff;
+	font-size: 50px;
+	letter-spacing: -1px;
+	line-height: normal;
+  }
+  
+  .pet-marketplace .home-featured-about {
+	position: relative;
+	width: 476px;
+	font-family: "Poppins", Helvetica;
+	font-weight: 400;
+	color: var(--foundation-orangenormal);
+	font-size: 30px;
+	text-align: justify;
+	letter-spacing: -0.6px;
+	line-height: normal;
+	text-decoration: underline;
+  }
+  
+  .pet-marketplace .footer-about-3 {
+	top: 140px;
+	left: 626px;
+	display: inline-flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
+	gap: 14px;
+	position: absolute;
+  }
+  
+  .pet-marketplace .frame-6 {
+	position: relative;
+	width: 479px;
+	height: 265px;
+	background-image: url(https://c.animaapp.com/f11aBe7U/img/frame-10@2x.png);
+	background-size: cover;
+	background-position: 50% 50%;
+  }
+  
+  .pet-marketplace .social-icons {
+	position: absolute;
+	width: 138px;
+	height: 32px;
+	top: 6286px;
+	left: 1532px;
+  }
+  
+  .pet-marketplace .text-wrapper-16 {
+	position: absolute;
+	top: 6290px;
+	left: 60px;
+	font-family: "Poppins", Helvetica;
+	font-weight: 500;
+	color: #ffffff;
+	font-size: 18px;
+	letter-spacing: -0.36px;
+	line-height: normal;
+  }
+  
+  .pet-marketplace .rectangle-3 {
+	position: fixed;
+	width: 100%;
+	height: 238px;
+	top: -22px;
+	left: -23px;
+	background-color: #000000bf;
+	border: 2px solid;
+	border-color: transparent;
+	backdrop-filter: blur(35px) brightness(100%);
+	-webkit-backdrop-filter: blur(35px) brightness(100%);
+	border-image: linear-gradient(to bottom, rgb(133.87, 129.97, 129.97) 26.96%, rgba(113.69, 107.53, 107.53, 0)) 1;
+  }
+  
+  .pet-marketplace .top-navigation-bar {
+	display: flex;
+	width: 100%;
+	align-items: center;
+	gap: 205px;
+	position: fixed;
+	top: 95px;
+	left: 60px;
+  }
+  
+  .pet-marketplace .frame-7 {
+	display: inline-flex;
+	align-items: center;
+	gap: 17px;
+	position: absolute;
+	top: 10px;
+	left: 1393px;
+  }
+  
+  .pet-marketplace .buttons-4 {
+	all: unset;
+	box-sizing: border-box;
+	display: inline-flex;
+	gap: 10px;
+	padding: 8px 24px;
+	position: relative;
+	flex: 0 0 auto;
+	background-color: var(--foundation-orangenormal);
+	align-items: center;
+	justify-content: center;
+  }
+  
+  .pet-marketplace .button-4 {
+	all: unset;
+	box-sizing: border-box;
+	margin-top: -1px;
+	color: var(--button);
+	font-size: 16px;
+	letter-spacing: -0.32px;
+	position: relative;
+	width: fit-content;
+	font-family: "Poppins", Helvetica;
+	font-weight: 500;
+	line-height: normal;
+  }
+  
+  .pet-marketplace .buttons-5 {
+	all: unset;
+	box-sizing: border-box;
+	display: inline-flex;
+	gap: 10px;
+	padding: 8px 24px;
+	position: relative;
+	flex: 0 0 auto;
+	border: 1.5px solid;
+	border-color: var(--foundation-orangenormal);
+	align-items: center;
+	justify-content: center;
+  }
+  
+  .pet-marketplace .button-5 {
+	all: unset;
+	box-sizing: border-box;
+	margin-top: -1.5px;
+	color: var(--button);
+	font-size: 16px;
+	letter-spacing: -0.32px;
+	position: relative;
+	width: fit-content;
+	font-family: "Poppins", Helvetica;
+	font-weight: 500;
+	line-height: normal;
+  }
+  
